@@ -1,0 +1,27 @@
+{
+	"testcases":
+	[
+		{
+			"TestName":"Name of the test is  ",
+			"ParameterNames":["action"],
+			"Executions":
+			[
+				{
+					"runMode":"Y",
+					"ExecutionName":"Buy the Stocks",
+					"dataFlag":"buythestocks",
+					"ParameterValues":["Buy the Stock"],
+					"Methods":["doLogin","selectPortfolio","goToCompany","buyTheStock"]
+				},
+				{
+					"runMode" :"Y",
+					"ExecutionName":"Sell the Stocks",
+					"dataFlag":"sellthestocks",
+					"ParameterValues":["Sell the stock"],
+					"Methods":["doLogin","selectPortfolio","goToCompany","sellTheStock"]
+				}
+			]
+		}
+		
+	]
+}

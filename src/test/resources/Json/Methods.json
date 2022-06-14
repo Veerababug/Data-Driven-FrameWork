@@ -1,0 +1,19 @@
+{
+	"Classes":
+	[
+		{
+		"ClassName" :"TestCases.DoLogin",
+		"Methods": ["doLogin",
+        "selectPortfolio"
+        ]
+      },
+      {
+		"ClassName" :"TestCases.StockManagement",
+		"Methods": [
+		 "goToCompany",
+         "buyTheStock",
+         "sellTheStock"
+        ]
+      }
+	]
+}

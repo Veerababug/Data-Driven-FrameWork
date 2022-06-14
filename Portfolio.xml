@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Listener.MyTestResult"/>
+</listeners>
+  <test  name="Create Portfolio">
+    <classes>
+      <class name="TestCases.Session">
+      	<methods>
+      		<include name="doLogin"/>
+      	</methods>
+      </class>
+      <class name="TestCases.CreatePortfolio">
+      	<methods>
+      		<include name="createPortfolio"/>
+      	</methods>
+      </class>
+     
+    </classes>
+  </test>
+  <test  name="Stock Management">
+    <classes>
+     
+      <class name="TestCases.StockManagement">
+      	<methods>
+      		<include name="addStock"/>
+      	</methods>
+      </class>
+       
+    </classes>
+  </test>
+  <test  name="Delete Portfolio">
+    <classes>
+     
+      <class name="TestCases.CreatePortfolio">
+      	<methods>
+      		<include name="deletePortfolio"/>
+      	</methods>
+      </class>
+       
+    </classes>
+  </test>
+  
+  
+</suite> <!-- Suite -->

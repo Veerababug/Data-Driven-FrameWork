@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rediff Portfolio]">
+  <listeners>
+    <listener class-name="Listener.MyTestResult"/>
+  </listeners>
+  <test thread-count="5" name="Rediff Portfolio   Buy the Stocks Iteration1(failed)">
+    <parameter name="filePath" value="C:\Java WorkSpace\DataDrivenFrameWork\src\test\resources\Json Data\StocksData.json"/>
+    <parameter name="action" value="Buy the Stock"/>
+    <parameter name="Iteration" value="0"/>
+    <parameter name="dataFalg" value="buythestocks"/>
+    <classes>
+      <class name="TestCases.DoLogin">
+        <methods>
+          <include name="doLogin"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="selectPortfolio"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestCases.DoLogin -->
+      <class name="TestCases.StockManagement">
+        <methods>
+          <include name="buyTheStock"/>
+          <include name="goToCompany"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestCases.StockManagement -->
+    </classes>
+  </test> <!-- Rediff Portfolio   Buy the Stocks Iteration1(failed) -->
+  <test thread-count="5" name="Rediff Portfolio   Sell the Stocks Iteration1(failed)">
+    <parameter name="filePath" value="C:\Java WorkSpace\DataDrivenFrameWork\src\test\resources\Json Data\StocksData.json"/>
+    <parameter name="action" value="Sell the stock"/>
+    <parameter name="Iteration" value="0"/>
+    <parameter name="dataFalg" value="sellthestocks"/>
+    <classes>
+      <class name="TestCases.DoLogin">
+        <methods>
+          <include name="doLogin"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="selectPortfolio"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestCases.DoLogin -->
+      <class name="TestCases.StockManagement">
+        <methods>
+          <include name="goToCompany"/>
+          <include name="beforeMethod"/>
+          <include name="sellTheStock"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestCases.StockManagement -->
+    </classes>
+  </test> <!-- Rediff Portfolio   Sell the Stocks Iteration1(failed) -->
+</suite> <!-- Failed suite [Rediff Portfolio] -->

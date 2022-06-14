@@ -1,0 +1,36 @@
+{
+"Suite Name":"Rediiff Session",
+"TestCases":
+[
+	{
+	"Name":"Name of the First Test is ",
+	"ParameterNames":["action","para1"],
+	"Executions":
+	[
+		{
+			"runMode" :"Y",
+			"ExecutionName":"Buy the Stocks",
+			"Dataflag":"Buythestocks",
+			"ParameterValues":["Buy the Sotck","buying"],
+			"Methods":["doLogin","selectPortfolio","goToCompany","buyTheStock"]
+		}
+	]
+	
+	},
+	{
+	"Name":"Name of the Second Test is ",
+	"ParameterNames":["action","para2"],
+	"Executions":
+	[
+		{
+			"runMode" :"Y",
+			"ExecutionName":"Sell the Stocks",
+			"Dataflag":"Sellthestocks",
+			"ParameterValues":["Sell the stock","Selling"],
+			"Methods":["doLogin","selectPortfolio","goToCompany","sellTheStock"]
+		}
+	]
+	
+	}
+]
+}

@@ -1,0 +1,39 @@
+{
+"testdata":
+	[
+		{
+		"flag":"Buythestocks",
+		"data":
+			[
+				{
+				"Company":"Tata Consultancy",
+				"Date":"22-11-2022",
+				"runMode":"N"
+				},
+				{
+				"Company":"Tata Consultancy",
+				"Date":"24-10-2022",
+				"runMode":"Y"				
+				}
+			]
+		},
+		{
+		"flag":"Sellthestocks",
+		"data":
+			[
+				{
+				"Company":"Tata Consultancy",
+				"Date":"22-06-2022",
+				"runMode":"N"
+				},
+				{
+				"Company":"Tata Consultancy",
+				"Date":"24-10-2022",
+				"runMode":"N"
+				
+				}
+			]
+		}
+	
+	]
+}

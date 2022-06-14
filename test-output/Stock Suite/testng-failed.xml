@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Stock Suite]">
+  <test thread-count="5" name="Testcase -Buy the Stocks(failed)">
+    <classes>
+      <class name="TestCases.DoLogin">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="selectPortfolio"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestCases.DoLogin -->
+      <class name="TestCases.StockManagement">
+        <methods>
+          <include name="buyTheStock"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestCases.StockManagement -->
+    </classes>
+  </test> <!-- Testcase -Buy the Stocks(failed) -->
+  <test thread-count="5" name="Testcase -Sell the Stocks(failed)">
+    <classes>
+      <class name="TestCases.DoLogin">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="selectPortfolio"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestCases.DoLogin -->
+      <class name="TestCases.StockManagement">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="sellTheStock"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestCases.StockManagement -->
+    </classes>
+  </test> <!-- Testcase -Sell the Stocks(failed) -->
+  <test thread-count="5" name="Test -Buy the Stocks(failed)">
+    <classes>
+      <class name="TestCases.DoLogin">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="selectPortfolio"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestCases.DoLogin -->
+      <class name="TestCases.StockManagement">
+        <methods>
+          <include name="buyTheStock"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestCases.StockManagement -->
+    </classes>
+  </test> <!-- Test -Buy the Stocks(failed) -->
+</suite> <!-- Failed suite [Stock Suite] -->

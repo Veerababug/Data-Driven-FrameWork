@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="20" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="170634" started-at="2022-05-27T13:06:21 IST" finished-at="2022-05-27T13:09:12 IST">
+    <groups>
+    </groups>
+    <test name="Buy the Stocks " duration-ms="88295" started-at="2022-05-27T13:06:21 IST" finished-at="2022-05-27T13:07:49 IST">
+      <class name="TestCases.DoLogin">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:TestCases.DoLogin@462d5aee]" name="beforeTest" is-config="true" duration-ms="476" started-at="2022-05-27T13:06:21 IST" finished-at="2022-05-27T13:06:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73d4cc9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:TestCases.DoLogin@462d5aee]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-05-27T13:06:22 IST" finished-at="2022-05-27T13:06:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73d4cc9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:TestCases.DoLogin@462d5aee]" name="doLogin" duration-ms="28870" started-at="2022-05-27T13:06:22 IST" finished-at="2022-05-27T13:06:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:TestCases.DoLogin@462d5aee]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-05-27T13:06:50 IST" finished-at="2022-05-27T13:06:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73d4cc9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectPortfolio()[pri:0, instance:TestCases.DoLogin@462d5aee]" name="selectPortfolio" duration-ms="8627" started-at="2022-05-27T13:06:50 IST" finished-at="2022-05-27T13:06:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPortfolio -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:TestCases.DoLogin@462d5aee]" name="afterTest" is-config="true" duration-ms="3998" started-at="2022-05-27T13:07:45 IST" finished-at="2022-05-27T13:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73d4cc9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestCases.DoLogin -->
+      <class name="TestCases.StockManagement">
+        <test-method status="PASS" signature="goToCompany()[pri:0, instance:TestCases.StockManagement@2db7a79b]" name="goToCompany" duration-ms="10446" started-at="2022-05-27T13:06:59 IST" finished-at="2022-05-27T13:07:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCompany -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:TestCases.StockManagement@2db7a79b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-05-27T13:06:59 IST" finished-at="2022-05-27T13:06:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73d4cc9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:TestCases.StockManagement@2db7a79b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-05-27T13:07:09 IST" finished-at="2022-05-27T13:07:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73d4cc9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="buyTheStock()[pri:0, instance:TestCases.StockManagement@2db7a79b]" name="buyTheStock" duration-ms="35815" started-at="2022-05-27T13:07:09 IST" finished-at="2022-05-27T13:07:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyTheStock -->
+      </class> <!-- TestCases.StockManagement -->
+    </test> <!-- Buy the Stocks  -->
+    <test name="Sell the Stocks" duration-ms="82313" started-at="2022-05-27T13:07:49 IST" finished-at="2022-05-27T13:09:12 IST">
+      <class name="TestCases.DoLogin">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:TestCases.DoLogin@782663d3]" name="beforeTest" is-config="true" duration-ms="1" started-at="2022-05-27T13:07:49 IST" finished-at="2022-05-27T13:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@80169cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:TestCases.DoLogin@782663d3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-05-27T13:07:49 IST" finished-at="2022-05-27T13:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@80169cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:TestCases.DoLogin@782663d3]" name="doLogin" duration-ms="22230" started-at="2022-05-27T13:07:49 IST" finished-at="2022-05-27T13:08:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:TestCases.DoLogin@782663d3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-05-27T13:08:12 IST" finished-at="2022-05-27T13:08:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@80169cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectPortfolio()[pri:0, instance:TestCases.DoLogin@782663d3]" name="selectPortfolio" duration-ms="8666" started-at="2022-05-27T13:08:12 IST" finished-at="2022-05-27T13:08:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPortfolio -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:TestCases.DoLogin@782663d3]" name="afterTest" is-config="true" duration-ms="912" started-at="2022-05-27T13:09:11 IST" finished-at="2022-05-27T13:09:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@80169cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestCases.DoLogin@782663d3]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-05-27T13:09:12 IST" finished-at="2022-05-27T13:09:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestCases.DoLogin -->
+      <class name="TestCases.StockManagement">
+        <test-method status="PASS" signature="goToCompany()[pri:0, instance:TestCases.StockManagement@1990a65e]" name="goToCompany" duration-ms="10416" started-at="2022-05-27T13:08:20 IST" finished-at="2022-05-27T13:08:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCompany -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:TestCases.StockManagement@1990a65e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-05-27T13:08:20 IST" finished-at="2022-05-27T13:08:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@80169cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="sellTheStock()[pri:0, instance:TestCases.StockManagement@1990a65e]" name="sellTheStock" duration-ms="40080" started-at="2022-05-27T13:08:31 IST" finished-at="2022-05-27T13:09:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sellTheStock -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:TestCases.StockManagement@1990a65e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-05-27T13:08:31 IST" finished-at="2022-05-27T13:08:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@80169cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+      </class> <!-- TestCases.StockManagement -->
+    </test> <!-- Sell the Stocks -->
+  </suite> <!-- Suite -->
+</testng-results>

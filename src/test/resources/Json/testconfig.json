@@ -1,0 +1,21 @@
+{
+	"browsers":["chrome","mozilla"],
+	"parallelSuites":"1",
+	"testSuites":
+	[
+		{
+			"runMode":"Y",
+			"Name":"Rediff Portfolio",
+			"testDataJsonFile":"\\Json Data\\StocksData.json",
+			"suiteJsonFile":"\\StocksData.json",
+			"parallelTests":"N"
+		},
+		{
+			"runMode":"Y",
+			"Name":"Rediff ",
+			"testDataJsonFile":"\\Json Data\\StocksData.json",
+			"suiteJsonFile":"\\StocksData.json",
+			"parallelTests":"N"
+		}
+	]
+}
