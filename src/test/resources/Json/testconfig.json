@@ -11,7 +11,7 @@
 			"parallelTests":"N"
 		},
 		{
-			"runMode":"Y",
+			"runMode":"N",
 			"Name":"Rediff ",
 			"testDataJsonFile":"\\Json Data\\StocksData.json",
 			"suiteJsonFile":"\\StocksData.json",
